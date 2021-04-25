@@ -1,0 +1,23 @@
+{
+  "name": "sudhan",
+  "version": "1.0.0",
+  "description": "A CLI for wasting time, it might be updated cool in future for not its just trash lol",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Sudhan",
+    "url": "https://github.com/SudhanPlayz"
+  },
+  "keywords": [
+    "sudhan",
+    "cli"
+  ],
+  "bin": {
+    "sudhan": "./lib/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0"
+  }
+}

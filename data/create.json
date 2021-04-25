@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Create a project folder with git",
+        "commands": [
+            "mkdir {AppName}",
+            "cd {AppName} && git init"
+        ],
+        "variables": ["AppName"]
+    },
+    {
+        "name": "Create react app - JavaScript",
+        "commands": [
+            "npx create-react-app {AppName}"
+        ],
+        "variables": ["AppName"]
+    },
+    {
+        "name": "Create react app - TypeScript",
+        "commands": [
+            "npx create-react-app {AppName} --template typescript"
+        ],
+        "variables": ["AppName"]
+    }
+]
